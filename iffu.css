@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+    background-color:rgb(5, 5, 80);
+    
+}
+.logo{
+    width:50px;
+    cursor:pointer;
+    margin: 30px 10px;
+}
+h2{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.menu-icon{
+    width: 20px;
+    cursor:pointer;
+    margin: 30px 10px;
+    display: none;
+}
+.fb{
+    width: 10px;
+    cursor:pointer; 
+    padding-right:50px;
+}
+.insta{
+    width: 20px;
+    cursor:pointer; 
+    padding-right: 50px;
+}
+.x{
+    width: 20px;
+    cursor:pointer; 
+    padding-right: 50px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+color: red;
+}
+.centre{
+   
+        width:100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        
+}
+.footer{
+    width:100%;
+    height:500px;
+    background-color: rgb(14, 2, 84);
+}
+.logo1{
+    width:150px;
+    cursor:pointer;
+    margin: 30px 10px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-top:-125px;
+    margin-left: 200px;
+    letter-spacing: 2px;
+}
+.about {
+    margin-top: 80px;
+    margin-left:35px;
+}
+.us{
+    margin-top: 20px;
+    margin-left:35px;
+    color: #fff;
+    word-spacing: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+h3{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 35px;
+    letter-spacing: 2px;   
+}
+.fbb{
+    width: 12px;
+    cursor:pointer; 
+    padding-left:40px;
+    padding-top: 20px;
+}
+.instag{
+    width: 20px;
+    cursor:pointer; 
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.xx{
+    width: 20px;
+    cursor:pointer; 
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.centre{
+    width:100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.left{
+    width:20%;
+    height: auto;
+    border-right: 2px solid rgba(0, 0, 0, 0.462);
+    position: relative;
+}
+.topnews  {
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 5px;
+    
+}
+.news1{
+    width:200px;
+    height:225px;
+    background-color: rgba(57, 56, 56, 0.093);
+    margin-left: 20px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.imgcontainer1{
+    width:240px;
+    height: 150px;
+    background-color: black;
+    margin-top:10px;
+    margin-left: -50px;
+    overflow: hidden;
+
+}
+.heading{
+    width:100%;
+    margin-left: -60px;
+    height:auto;
+}
+.headlines{
+    font-size:16px;
+    color: black;
+    padding-left: 1px;
+    text-align: left;
+}
+.imgcontainer1 img{
+    width:200px;
+    height:auto;
+    
+}
+.match{
+    position: relative;
+    width: 60%;
+    height:auto;
+}
+.subdiv{
+    position:absolute;
+    width:90%;
+    height:90%;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgba(58, 54, 54, 0.482);
+    
+    
+}
+.right{
+    width:19.7%;
+    height: auto;
+    border-left: 2px solid rgba(0, 0, 0, 0.462);
+    position: relative; 
+    
+}
+.matches{
+    width:90%;
+    height:25%;
+    margin-top: 30px;
+    margin-left: 45px;;
+    border-radius: 20px;
+    background-color: rgba(57, 56, 56, 0.093);
+    border:1px solid rgba(0, 0, 0, 0.427);
+}
+.txt{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.tmlogo{
+width:33.3333%;
+float:left;
+}
+.firsteam{
+    float: left;
+    width:50%;
+}
+.firsteam img{
+    width:90px;
+    margin: 10px auto;
+    display: flex;
+}
+.time{
+    width:33.3333%;
+    float:left;
+}
+.matchtime {
+    margin: 25px auto;
+}
+.matchdate{
+    margin: 20px auto;
+    text-align: center;
+}
+.score{
+    font-size: 21px;
+    letter-spacing: 5px;
+   text-align: center;
+}
+.matchhour{
+    margin: 20px auto;
+    text-align: center;
+}
+.league{
+    margin: -10px auto;
+    text-align: center;
+}
+
+.tmlogo1{
+    width:33.3333%;
+    float:right;
+    
+}
+.secondteam{
+    float: right;
+    width:50%;
+}
+.secondteam img{
+    width:90px;
+    margin: 10px auto;
+    display: flex;
+}
+.teamname
+{
+    margin: 40px auto;
+    display: table;
+    font-size: 16px;
+}
+@media only screen and (max-width:1024px){
+    h2{
+        font-size: 10px;
+    }
+    .news1{
+        width:100px;
+    }
+    .imgcontainer1{
+        width:140px;
+    }
+    .imgcontainer1 img{
+        width:160px;
+        
+    }
+    .firsteam img{
+        width:60px;
+    }
+    .secondteam img{
+        width:60px;
+    }
+    .teamname{
+        font-size: 12px;
+    }
+    .matches{
+        width:85%;
+    }
+    .right{
+        margin-top: -73%;
+        margin-left: 80%;
+        
+    }
+}
+@media only screen and (max-width:768px){
+    nav ul{
+        width:100%;
+        background:rgb(9, 9, 137);
+        position:absolute;
+        top:100px;
+        right:0;
+        z-index:2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left:20px;
+        text-align: left;
+    }
+    nav ul li a{
+        color:#fff;
+
+    }
+    .menu-icon{
+        display: block;
+    }
+    .insta{
+        display: none;
+    }
+    .fb{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    #menuList{
+        overflow:hidden;
+        transition: 0.5s;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .about {
+        margin-top: 100px;
+        margin-left:35px;
+    }
+    .us{
+        margin-top: 10px;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+       display:none;
+    }
+    .match{
+        
+        width: 100%;
+        height:auto;
+    }
+    .subdiv{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:500px){
+    .league{
+        display: none;
+    }
+    .subdiv{
+        width:80%;
+        height:70%;
+        margin-left: 40px;
+    }
+    .matches{
+        width:85%;
+        height: 23%;
+        margin-left: 30px;
+    }
+    .firsteam img{
+        width:50px;
+        margin-left: 20px;
+    }
+    .secondteam img{
+        width:50px;
+        margin-left: -25px;
+    }
+    .time{
+        height:20px;
+    }
+
+    .matchhour{
+        font-size: 12px;
+    }
+    .score{
+        margin-top: 0px;
+    }
+    .teamname{
+    margin-top: 90px;
+    font-size: 12px;
+    }
+}

@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+    background-color:rgb(5, 5, 80);
+    
+}
+.navbar1{
+    width:100%;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    background-color:rgb(5, 5, 80);
+    
+}
+.logo{
+    width:50px;
+    cursor:pointer;
+    margin: 30px 10px;
+}
+h2{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.menu-icon{
+    width: 20px;
+    cursor:pointer;
+    margin: 30px 10px;
+    display: none;
+}
+.fb{
+    width: 10px;
+    cursor:pointer; 
+    padding-right:50px;
+}
+.insta{
+    width: 20px;
+    cursor:pointer; 
+    padding-right: 50px;
+}
+.x{
+    width: 20px;
+    cursor:pointer; 
+    padding-right: 50px;
+}
+.club{
+    padding-left: 30px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+color: red;
+}
+nav ul li img{
+    width:30px;
+    height:30px;
+    
+}
+nav ul li img:hover{
+   transform: scale(120%);
+}
+
+.clubdiv{
+    display:none;
+}
+.footer{
+    width:100%;
+    height:500px;
+    margin-top: 100%;
+    background-color: rgb(14, 2, 84);
+}
+.logo1{
+    width:150px;
+    cursor:pointer;
+    margin: 30px 10px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-top:-125px;
+    margin-left: 200px;
+    letter-spacing: 2px;
+}
+.about {
+    margin-top: 80px;
+    margin-left:35px;
+}
+.us{
+    margin-top: 20px;
+    margin-left:35px;
+    color: #fff;
+    word-spacing: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+h3{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 35px;
+    letter-spacing: 2px;   
+}
+.fbb{
+    width: 12px;
+    cursor:pointer; 
+    padding-left:40px;
+    padding-top: 20px;
+}
+.instag{
+    width: 20px;
+    cursor:pointer; 
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.xx{
+    width: 20px;
+    cursor:pointer; 
+    padding-left: 40px;
+    padding-top: 20px;
+}
+@media only screen and (max-width:1024px){
+    h2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:768px){
+    .navbar1{
+        display: none;
+    }
+    nav ul{
+        width:100%;
+        background:rgb(9, 9, 137);
+        position:absolute;
+        top:100px;
+        right:0;
+        z-index:2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left:20px;
+        text-align: left;
+    }
+    nav ul li a{
+        color:#fff;
+
+    }
+    nav ul li img{
+        display: none;
+    }
+    .club{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .insta{
+        display: none;
+    }
+    .fb{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    #menuList{
+        overflow:hidden;
+        transition: 0.5s;
+    }
+    .clubdiv{
+        width: 100%;
+        height: auto;
+        background-color:rgb(5, 5, 80);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    ul li{
+        list-style:none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+    
+    ul li img{
+            width:30px;
+            height:30px;
+            margin-top: 10px;
+            padding-left: 20px;
+            
+        }
+    h1{
+        font-size: 20px;
+    }
+    .about {
+        margin-top: 100px;
+        margin-left:35px;
+    }
+    .us{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:500px){
+    ul li img{
+
+        padding-left: 0px;
+        
+    }
+}
